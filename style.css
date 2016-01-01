@@ -1,0 +1,77 @@
+body {
+    background-color: tan;
+	border:0;
+	margin:auto;
+	padding:0;
+	width:300px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:100%;
+	color:#582905;
+	display:block;
+}
+h1{
+	margin:5px;
+	padding:0;
+	font-size: 2.5em;
+}
+div {
+	margin: 0;
+    padding: 5px;
+    border: 0;
+	font-size: 1em;
+}
+html {
+  box-sizing: border-box;
+}
+
+button {
+	margin:0 auto;
+	color:white;
+	text-align:center;
+	margin-top:1.5;
+	font-size: 0.8em;
+}
+button {
+	background-color:#A87C66;
+    text-shadow: none;
+    border-style:dotted;
+    border-radius: 20px;
+    padding: 6px 15px;
+    line-height: 1.5;
+}
+button:hover {
+    cursor: pointer;
+    background-color:#983103
+}
+#error {
+	display: none;
+	color:#0C5804;
+}
+#list {
+	color:#582905;
+}
+#done {
+	color:red;
+}
+ol, ul {
+    list-style: none;
+}
+li {
+	font-size:1.2em;
+	text-align:center;
+	margin: 0;
+    padding: 0;
+    border: 0;
+}
+ul {
+    display: block;
+    list-style-type: none;
+    padding:0px;
+    margin:0px;
+	background-color:#F3C6B2;
+    text-shadow: none;
+    border-style:dotted;
+    border-radius: 20px;
+    padding: 6px 15px;
+    line-height: 1.5;
+}
