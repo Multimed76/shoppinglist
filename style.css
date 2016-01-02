@@ -23,15 +23,30 @@ div {
 html {
   box-sizing: border-box;
 }
-
-button {
+.delete {
+	margin:0 auto;
+	color:white;
+}
+.delete{
+	background-color:#A87C66;
+    text-shadow: none;
+    border-style:dotted;
+    border-radius: 10px;
+    padding: 3px 8px;
+    line-height: 1.5;
+}
+.delete:hover {
+    cursor: pointer;
+    background-color:red;
+}
+#Btn {
 	margin:0 auto;
 	color:white;
 	text-align:center;
 	margin-top:1.5;
 	font-size: 0.8em;
 }
-button {
+#Btn {
 	background-color:#A87C66;
     text-shadow: none;
     border-style:dotted;
@@ -39,7 +54,7 @@ button {
     padding: 6px 15px;
     line-height: 1.5;
 }
-button:hover {
+#Btn:hover {
     cursor: pointer;
     background-color:#983103
 }
@@ -47,11 +62,11 @@ button:hover {
 	display: none;
 	color:#0C5804;
 }
-#list {
+Cotainer {
 	color:#582905;
 }
-#done {
-	color:red;
+#item {
+	color:#582905;
 }
 ol, ul {
     list-style: none;
